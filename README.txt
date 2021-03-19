@@ -1,0 +1,1 @@
+Este projeto serviu para treinar boas práticas em HTML e CSS.

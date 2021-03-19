@@ -1,0 +1,15 @@
+.imgPratos {
+	width: 33%;
+}
+
+@media (max-width:836px){
+	.imgPratos{
+		width: 49%;
+	}
+}
+
+@media (max-width:500px){
+	.imgPratos {
+		width: 100%;
+	}
+}

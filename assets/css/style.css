@@ -1,0 +1,16 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F2F5F7;
+}
+
+#banner{
+	margin-top: 125px;
+	width:100%;
+}
+
+.titulos {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 2rem;
+}

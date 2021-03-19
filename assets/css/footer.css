@@ -1,0 +1,33 @@
+.rodape {
+	background-color: #000000;
+	width: 100%;
+}
+
+.rodape__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodape__logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;
+	float: left;
+}
+
+.rodape__contato {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+.rodape__copyright {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding: 1rem 0;
+}
+

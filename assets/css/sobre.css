@@ -1,0 +1,36 @@
+
+.sobre {
+	margin: 0 auto;
+	width: 90%;
+	padding: 1.5rem 1.5rem;
+}
+
+.sobre__titulo {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.sobre__titulo:before {
+	content: "🥢 "
+}
+
+.sobre__titulo:after {
+	content: " 🥢"
+} 
+
+.sobre__texto {
+	text-align: justify;
+	line-height: 2rem;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.sobre__texto a {
+	text-decoration: none;
+	color: red;
+}

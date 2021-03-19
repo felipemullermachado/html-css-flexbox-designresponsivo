@@ -1,0 +1,85 @@
+.cardapio {
+	display: flex;
+    align-items: center;
+	flex-wrap: wrap;
+    justify-content: center;
+    margin: 10rem 0 3rem 0;
+}
+
+.cardapio__item {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	margin: 1.5%;
+	padding: 1.9rem 1.2rem;
+	text-align: center;
+	box-sizing: border-box;
+	border: 2px dashed #000000;
+	border-radius: 10px;
+    width: 21.5%;
+}
+
+.cardapio__item:hover {
+	border-color: #C78C19;
+}
+
+.cardapio__item:active {
+	border-color: firebrick;	
+}
+
+.cardapio__item h2 {
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin:0 0 0.8rem 0;
+}
+
+.item__descricao {
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+
+.item__preco {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.cardapio__item {
+		width: 29%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.cardapio__item {
+		padding: 0.5rem 0;
+		width: 45%;
+	}
+
+	.cardapio__item img {
+		display: flex;
+		align-self: center;
+		max-width: 13rem;
+		max-height: 13rem;	
+	}
+}
+
+@media screen and (max-width: 542px) {
+	.cardapio__item {
+		width: 52%;
+	}
+
+	.cardapio__item img {
+		display: flex;
+		align-self: center;
+		max-width: 10rem;
+		max-height: 10rem;	
+	}
+}
+
+@media screen and (max-width: 400px){
+	.cardapio {
+		margin-top: 12rem;
+	}
+}
